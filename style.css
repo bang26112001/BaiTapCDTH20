@@ -1,0 +1,110 @@
+@font-face{
+    font-family: Poppins;
+    src: url(./Poppins-font/Poppins-Medium.ttf)
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: "Poppins";
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.headline {
+    height: 100vh;
+    background-image: url(./img/greek-vase.png);
+    overflow: hidden;
+}
+
+.headline__nav{
+    margin: 50px 300px;
+    overflow: hidden;
+}
+
+.headline__nav .logo{
+    font-weight: 700;
+    font-size: 25px;
+    color: #0078a7;
+}
+
+.headline__nav ul{
+    margin-left: 150px;
+    overflow: hidden;
+    padding: 7px;
+}
+
+.headline__nav ul li{
+    float: left;
+    margin-right: 50px;
+}
+
+.headline__nav-button{
+    border-radius: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    padding: 10px 30px;
+}
+
+.headline__content {
+    margin: 0px 300px;
+    position: relative;
+    display: flex;
+}
+
+.headline__content flex-items{
+    width:50%;
+    flex-wrap: wrap;
+}
+
+.headline__content-slogan{
+    margin-top: 100px;
+}
+
+.headline__content-slogan h1{
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.headline__content-slogan p{
+    color: rgba(0, 0, 0, 0.5);
+    letter-spacing: 5px;
+}
+
+.headline__content-button{
+    border-radius: 40px;
+    color: #fff;
+    background-image: linear-gradient(to left, #13f1fc, #0470dc);
+    padding: 10px 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.headline__content-button svg{
+    width:15px;
+}
+
+.headline__content .line{
+    position: absolute;
+    top: 225px;
+    left: 0;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+li {
+    list-style: none;
+}
+
+
